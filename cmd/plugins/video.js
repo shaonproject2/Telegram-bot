@@ -25,8 +25,8 @@ module.exports.start = async ({ event, api, adminBatton}) => {
           { text: 'CPL', callback_data: '/video/cpl' }
         ],
         [
-          { text: 'Short Video', callback_data: '/video/shortvideo' },
-          { text: 'Sad Video', callback_data: '/video/sadvideo' }
+          { text: 'Short Video', callback_data: '/video/short' },
+          { text: 'Sad Video', callback_data: '/video/sad' }
         ],
         [
           { text: 'Status', callback_data: '/video/status' },
@@ -41,11 +41,24 @@ module.exports.start = async ({ event, api, adminBatton}) => {
           { text: 'Islam', callback_data: '/video/islam' }
         ],
         [
-          { text: 'Horny', callback_data: '/video/horny' },
-          { text: 'Hot', callback_data: '/video/hot' }
+          { text: 'Football', callback_data: '/video/football' },
+          { text: 'Lofi', callback_data: '/video/lofi' }
         ],
         [
-          { text: 'random', callback_data: '/video/random' }
+          { text: 'Happy', callback_data: '/video/happy' },
+          { text: 'Funny', callback_data: '/video/funny' }
+        ],
+        [
+          { text: 'Humaiyun', callback_data: '/video/kosto' },
+          { text: 'Capcut', callback_data: '/video/capcut' }
+        ],
+        [
+          { text: 'Item', callback_data: '/video/item' },
+          { text: 'Sex', callback_data: '/video/sex' }
+        ],
+        [
+          { text: 'Horny', callback_data: '/video/horny' },
+          { text: 'Hot', callback_data: '/video/hot' }
         ]
       ]
     }
