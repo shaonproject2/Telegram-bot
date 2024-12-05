@@ -21,8 +21,8 @@ module.exports = {
       });
     }
 
-    const kl = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN/Nayan/main/api.json');
-        const apis = kl.data.api2;
+    const kl = await axios.get('https://raw.githubusercontent.com/shaonproject/Shaon/main/api.json');
+        const apis = kl.data.api;
 
     const apiUrl = `${apis}/random?name=${encodeURIComponent(name)}`;
     try {
