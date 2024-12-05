@@ -45,7 +45,7 @@ module.exports.start = async ({ event, api, adminBatton}) => {
           { text: 'Hot', callback_data: '/video/hot' }
         ],
         [
-          { text: 'Random', callback_data: '/video/status2' }
+          { text: 'random', callback_data: '/video/random' }
         ]
       ]
     }
@@ -65,7 +65,7 @@ module.exports.start = async ({ event, api, adminBatton}) => {
       const data = await axios.get(`${n}${name}`);
       console.log(data.data);
       const url = data.data.data || data.data.url.url;
-      const caption = data.data.shaon || `${data.data.title}`;
+      const caption = data.data.shaon || `${data.data.cp}`;
 
       
 
