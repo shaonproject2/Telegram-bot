@@ -1,9 +1,9 @@
 module.exports = {
-  ownerUsernames: ["MOHAMMADNAYAN"],//Your Username
-  ownerNumber: "+8801615298449",//Your Number
-  admin: ["5920596290"], // your id
+  ownerUsernames: ["shaonproject"],//Your Username
+  ownerNumber: "+8801814587247",//Your Number
+  admin: ["5891084825"], // your id
   prefix: "/", // dont change prefix 
-  telegramBotToken: "Your_Bot_Token",//Your Bot Tokens
+  telegramBotToken: "7529156928:AAHFB5GOA9cOU89VN1d-oi1KvTw6M7YhiMI",//Your Bot Tokens
   imageUrl: "https://i.postimg.cc/WpmJhNVg/received-383729254132460.jpg",//Thumbnail Url
   port: process.env.PORT || 8053 || 8053, // port
   mess: {
