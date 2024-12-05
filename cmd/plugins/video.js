@@ -45,7 +45,7 @@ module.exports.start = async ({ event, api, adminBatton}) => {
           { text: 'Hot', callback_data: '/video/hot' }
         ],
         [
-          { text: 'Random', callback_data: '/video/mixvideo' }
+          { text: 'Random', callback_data: '/video/status2' }
         ]
       ]
     }
@@ -60,12 +60,12 @@ module.exports.start = async ({ event, api, adminBatton}) => {
     const waitVoiceMsg = await api.sendMessage(chatId, "Please wait...", { reply_to_message_id: message.message_id });
 
     try {
-      const apis = await axios.get('https://raw.githubusercontent.com/MOHAMMAD-NAYAN/Nayan/main/api.json');
+      const apis = await axios.get('https://raw.githubusercontent.com/shaonproject/Shaon/main/api.json');
       const n = apis.data.api;
       const data = await axios.get(`${n}${name}`);
       console.log(data.data);
       const url = data.data.data || data.data.url.url;
-      const caption = data.data.nayan || `${data.data.cp}`;
+      const caption = data.data.shaon || `${data.data.title}`;
 
       
 
