@@ -1,7 +1,7 @@
 module.exports = {
   config: {
     name: "help",
-    credits: "Nayan",
+    credits: "Shaon Ahmed",
     aliases: ["menu", "commands"],
     prefix: true,
     permission: 0,
@@ -64,7 +64,7 @@ module.exports = {
       response += `${start + index + 1}. ${cmd.name}\n`;
     });
 
-    response += `\n⚙️ Total Commands: ${totalCommands}\n👤 Author: Nayan`;
+    response += `\n⚙️ Total Commands: ${totalCommands}\n👤 Author: Shaon Ahmed`;
 
     
     await api.sendMessage(chatId, response, { parse_mode: "Markdown" });
