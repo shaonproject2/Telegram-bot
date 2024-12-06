@@ -82,7 +82,7 @@ module.exports.start = async ({ event, api, adminBatton}) => {
 
       
 
-      await api.sendVideo(chatId, url, { caption: caption, reply_to_message_id: message.message_id, ...adminBatton });
+      await api.sendVideo(chatId, url, { caption: caption, reply_to_message_id: message.message_id, });
       await api.deleteMessage(chatId, waitVoiceMsg.message_id);
     } catch (error) {
       await api.deleteMessage(chatId, waitVoiceMsg.message_id);
