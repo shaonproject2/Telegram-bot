@@ -2,7 +2,7 @@ const Start = new Date();
 
 module.exports = {
   config: {
-    name: "uptime",
+    name: "upt",
     credits: "Nayan",
     aliases: ["up", "runtime"],
     prefix: "auto",
