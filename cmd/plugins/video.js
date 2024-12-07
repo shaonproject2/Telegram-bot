@@ -58,7 +58,7 @@ module.exports.start = async ({ event, api, adminBatton}) => {
         ],
         [
           { text: 'Horny', callback_data: '/video/horny' },
-          { text: 'Hot', callback_data: '/video/hot' }
+          { text: 'Hot', callback_data: '/video/tiktok' }
         ]
       ]
     }
