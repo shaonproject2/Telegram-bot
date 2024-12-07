@@ -9,7 +9,7 @@ module.exports = {
     tags: ["Utility"],
   },
   start: async ({ event, api, pluginsLoad }) => {
-    const commandsPerPage = 10;
+    const commandsPerPage = 999;
     const chatId = event.msg.chat.id;
 
     
@@ -46,7 +46,7 @@ module.exports = {
     }
 
     
-    const currentPage = input ? parseInt(input, 10) : 1;
+    const currentPage = input ? parseInt(input, 999) : 1;
 
     
     if (currentPage < 1 || currentPage > totalPages) {
