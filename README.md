@@ -1,27 +1,27 @@
 <h3 align="center">
   
-  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -NAYAN TELEGRAM BOT-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
+  <p align="center"><img src="https://img.shields.io/badge/WLCM%20TO -SHAON TELEGRAM BOT-green?colorA=%23ff0000&colorB=%23017e40&style=flat-square">  
   
 </h3>
 
 ![Bot Preview](https://i.postimg.cc/9XDfjVR3/20241203-103021.gif)
 
 ---
-<img alt="version" src="https://img.shields.io/github/package-json/v/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT?label=github&style=flat-square"></img>
-[![GitHub contributors](https://img.shields.io/github/contributors/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/issues) [![HitCount](https://views.whatilearened.today/views/github/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT.svg)](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT)
+<img alt="version" src="https://img.shields.io/github/package-json/v/shaonproject/Tle-bot?label=github&style=flat-square"></img>
+[![GitHub contributors](https://img.shields.io/github/contributors/shaonproject/Tle-bot)](https://github.com/shaonproject/Tle-bot/graphs/contributors) [![GitHub issues](https://img.shields.io/github/issues/shaonproject/Tle-bot)](https://github.com/shaonproject/Tle-bot/issues) [![HitCount](https://views.whatilearened.today/views/github/shaonproject/Tle-bot.svg)](https://github.com/shaonproject/Tle-bot)
 ---
 
 
 ## ABOUT ME
 
-name : ```Nayan Developer```</br>
+name : ```Shaon Developer```</br>
 age : ```20```</br>
-link : [facebook](https://www.facebook.com/profile.php?id=100000959749712).</br>
-channel: [TEAM_X4X_CHAT](https://t.me/TEAM_X4X_CHAT) <br>
+link : [facebook](https://www.facebook.com/profile.php?id=Hey.Its.Me.Shaon.Ahmed).</br>
+channel: [SHAON PROJECT BOT]([https://t.me/shaon_bot_group/]) <br>
 tutorial: [youtube](https://youtu.be/aqYP28Mog6U)
 ## CREDITS
 ---
-Original File: [NAYAN](https://github.com/MOHAMMAD-NAYAN/NAYAN-TELEGRAM-BOT/) by ```Nayan Developer```
+Original File: [SHAON](https://github.com/shaonproject/Tle-bot/) by ```Shaon Developer```
 
 
 ## Telegram Bot Documentation
