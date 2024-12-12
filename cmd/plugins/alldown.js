@@ -1,5 +1,5 @@
 const axios = require('axios');
-const { alldown } = require('nayan-video-downloader');
+const { alldown } = require('shaon-video-downloader');
 
 module.exports = {
   config: {
