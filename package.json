@@ -18,7 +18,7 @@
     "moment-timezone": "^0.5.45",
     "nayan-api-server": "^2.4.3",
     "nayan-imgur-upload-api": "^2.0.3",
-    "nayan-video-downloader": "^0.0.2",
+    "nayan-videos-downloader": "^0.0.9",
     "node-fetch": "^2.6.1",
     "node-telegram-bot-api": "^0.52.0",
     "open-graph": "^0.2.6",
