@@ -1,7 +1,7 @@
 const fs = require('fs');
 const path = require('path');
 const fetch = require('node-fetch');
-const { alldown } = require('nayan-video-downloader');
+const { alldown } = require('nayan-videos-downloader');
 
 module.exports = {
   config: {
