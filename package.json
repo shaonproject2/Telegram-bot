@@ -16,13 +16,14 @@
     "form-data": "^4.0.0",
     "mime-types": "^2.1.35",
     "moment-timezone": "^0.5.45",
-    "nayan-api-server": "^2.4.3",
-    "nayan-imgur-upload-api": "^2.0.3",
+    "nayan-apis-server": "^2.4.5",
+    "nayan-imgur-upload-apis": "^2.0.4",
     "nayan-videos-downloader": "^0.0.9",
     "node-fetch": "^2.6.1",
     "node-telegram-bot-api": "^0.52.0",
     "open-graph": "^0.2.6",
     "shaon-media-downloader": "^2.5.1",
+    "shaon-videos-downloader": "^0.0.2",
     "youtube-search-api": "^1.2.2"
   }
 }
