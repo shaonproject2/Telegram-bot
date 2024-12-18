@@ -1,6 +1,6 @@
 const axios = require('axios')
 const path = require('path');
-const { alldown } = require("nayan-videos-downloader");
+const { alldown } = require("shaon-videos-downloader");
 
 module.exports = {
   event: 'message',
