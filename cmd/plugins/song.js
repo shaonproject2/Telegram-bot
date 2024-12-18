@@ -1,6 +1,6 @@
 const axios = require('axios');
 const Youtube = require('youtube-search-api');
-const { ytdown } = require('nayan-videos-downloader');
+const { ytdown } = require('shaon-videos-downloader');
 
 module.exports = {
   config: {
