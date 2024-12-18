@@ -33,8 +33,8 @@ module.exports = {
 
         const mp3Path = path.join(
           __dirname,
-          'Nayan',
-          `Nayan_${Date.now()}.mp3`
+          'Shaon',
+          `Shaon_${Date.now()}.mp3`
         );
 
         const response = await fetch(fileUrl);
@@ -63,8 +63,8 @@ module.exports = {
           const audioUrl = data.data.audio;
           const mp3Path = path.join(
             __dirname,
-            'Nayan',
-            `Nayan_${Date.now()}.mp3`
+            'Shaon',
+            `Shaon_${Date.now()}.mp3`
           );
 
           const response = await fetch(audioUrl);
