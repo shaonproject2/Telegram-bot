@@ -1,4 +1,4 @@
-const { imgur } = require("nayan-imgur-upload-api");
+const { imgur } = require("nayan-imgur-upload-apis");
 module.exports = {
   config: {
     name: "imgur",
