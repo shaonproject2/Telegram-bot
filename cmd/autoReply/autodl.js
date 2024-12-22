@@ -22,7 +22,9 @@ module.exports = {
         console.log(data);
 
         const { high, title } = data.data;
-        const caption = `Title: ${title}`;
+        const caption = `🎬 𝐕𝐈𝐃𝐄𝐎 𝐓𝐈𝐓𝐋𝐄: ${title}
+            
+💻 𝐃𝐄𝐕𝐄𝐋𝐎𝐏𝐄𝐑:@shaonproject`;
 
         const vid = (
           await axios.get(high, { responseType: 'stream' })
@@ -30,8 +32,7 @@ module.exports = {
 
         const replyMarkup = {
           inline_keyboard: [
-            [{ text: 'Bot Owner', url: 'https://t.me/shaonproject' }],
-            [{ text: 'Download', url: high }],
+            [{ text: 'Download Video', url: high }],
           ],
         };
 
