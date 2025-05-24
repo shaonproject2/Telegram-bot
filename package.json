@@ -23,7 +23,7 @@
     "node-telegram-bot-api": "^0.52.0",
     "open-graph": "^0.2.6",
     "shaon-media-downloader": "^2.5.1",
-    "shaon-videos-downloader": "^0.0.6",
+    "shaon-videos-downloader": "^0.0.9",
     "youtube-search-api": "^1.2.2"
   }
 }
