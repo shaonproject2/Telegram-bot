@@ -13,7 +13,7 @@ module.exports.config = {
   cooldowns: 5,
 };
 
-module.exports.start = async ({ event, api, adminBatton}) => {
+module.exports.start = async ({ event, api }) => {
   const { message } = event;
   const chatId = message.chat.id;
 
@@ -25,8 +25,8 @@ module.exports.start = async ({ event, api, adminBatton}) => {
           { text: 'CPL', callback_data: '/video/cpl' }
         ],
         [
-          { text: 'Short Video', callback_data: '/video/short' },
-          { text: 'Sad Video', callback_data: '/video/sad' }
+          { text: 'Short Video', callback_data: '/video/shortvideo' },
+          { text: 'Sad Video', callback_data: '/video/sadvideo' }
         ],
         [
           { text: 'Status', callback_data: '/video/status' },
@@ -41,24 +41,11 @@ module.exports.start = async ({ event, api, adminBatton}) => {
           { text: 'Islam', callback_data: '/video/islam' }
         ],
         [
-          { text: 'Football', callback_data: '/video/football' },
-          { text: 'Lofi', callback_data: '/video/lofi' }
-        ],
-        [
-          { text: 'Happy', callback_data: '/video/happy' },
-          { text: 'Funny', callback_data: '/video/funny' }
-        ],
-        [
-          { text: 'Humaiyun', callback_data: '/video/kosto' },
-          { text: 'Capcut', callback_data: '/video/capcut' }
-        ],
-        [
-          { text: 'Item', callback_data: '/video/item' },
-          { text: 'Sex', callback_data: '/video/sex' }
-        ],
-        [
           { text: 'Horny', callback_data: '/video/horny' },
           { text: 'Hot', callback_data: '/video/hot' }
+        ],
+        [
+          { text: 'Random', callback_data: '/video/random' }
         ]
       ]
     }
@@ -77,12 +64,18 @@ module.exports.start = async ({ event, api, adminBatton}) => {
       const n = apis.data.api;
       const data = await axios.get(`${n}${name}`);
       console.log(data.data);
-      const url = data.data.data || data.data.url.url;
+      const url = data.data.data || data.data.url;
       const caption = data.data.shaon || `${data.data.cp}`;
 
-      
+      const replyMarkup = {
+        reply_markup: {
+          inline_keyboard: [
+            [{ text: 'Bot Owner', url: 'https://t.me/shaonproject' }]
+          ]
+        }
+      };
 
-      await api.sendVideo(chatId, url, { caption: caption, reply_to_message_id: message.message_id, });
+      await api.sendVideo(chatId, url, { caption: caption, reply_to_message_id: message.message_id, ...replyMarkup });
       await api.deleteMessage(chatId, waitVoiceMsg.message_id);
     } catch (error) {
       await api.deleteMessage(chatId, waitVoiceMsg.message_id);
