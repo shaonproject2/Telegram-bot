@@ -47,7 +47,7 @@ const processSong = async (chatId, name, api, replyToMessageId) => {
 
     const res = downloadData;
     const title = res.data.title;
-    const videoUrl = res.data.video;
+    const videoUrl = res.data.url;
 
     const vid = (
       await axios.get(videoUrl, { responseType: 'stream' })
