@@ -21,4 +21,4 @@ jobs:
         run: npm install
 
       - name: Run Bot Logic
-        run: node start.js
+        run: node index.js
